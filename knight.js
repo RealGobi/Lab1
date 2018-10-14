@@ -9,7 +9,6 @@ var mojligarutor = [];
 var xRutor = ['a', 'b', 'c', 'd', 'e', 'f', 'g','h'];
 
 
-
 function springare(ruta) {
  
      // X och Y koordinat: +2 eller - 2 steg, +1 eller -1 steg, det är så han får gå,
@@ -48,11 +47,16 @@ function springare(ruta) {
      // retunera även arrayen så vi får se vilka koordinater som ligger i arrayen.
   
 
-    console.log('Möjliga drag: ', mojligarutor.length);
+    console.log('Möjliga drag:', mojligarutor.length);
     return mojligarutor;
 }
 
 // anger vi funktionen(samt vilken ruta vi börjar på)
 
 
-console.log(springare('a3'));
+console.log(springare('g6'));
+
+
+
+// tyvärr hittade jag inget sätt att få den första koordinaten att bli en bokstav igen.
+// ex. vi vill ha ut: D,3. Men nu får vi: 4,3. 
